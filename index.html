@@ -1,77 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>timothyodongo</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div id="top">
-        <div class="inline">
-            <a href="index.html"><img src="logo.png" alt="logo.png" class="logo"></a>
-            <div class="text">
-            <h1 class="name">ODONGO TIMOTHY</h1>            
-            <h4 class="tagline">IT and CyberSecurity Consultant</h4>
-            </div>
-            <div class="links">
-                <ul>
-                    <li><a href='index.html'>Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="engagements.html">Engagements</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="#contact">Contact</a><li>
-                </ul>
-            </div>
-        </div>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <a href="#home" id="link"><div class="logo">ODONGO<br>TIMOTHY</div></a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <a href="#" class="resume-btn">Download Resume</a>
+  
+  <div class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</nav>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <div class="hero-left">
+    <span class="badge">Available For Projects</span>
+
+    <h1>
+      Hi, I'm <span class="highlight">Odongo Timothy</span><br>
+      A Frontend Developer &<br>
+      Blockchain Developer
+    </h1>
+
+    <p>
+      I build seamless, scalable, and user-focused digital experiences 
+      that merge creativity with functionality.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#" class="primary-btn">View My Works</a>
+      <a href="#" class="secondary-btn">Contact Me</a>
     </div>
-    <div class="intro">
-        <div id="about">
-            <h2>About Timothy</h2>
-            <p>Odongo Timothy is a technology specialist committed to delivering reliable, secure, and efficient digital solutions. With hands-on experience in network installation, computer maintenance, and web design, he focuses on helping individuals and businesses operate smoothly in an increasingly connected world.
+  </div>
 
-Through Hive Tech Solutions, he provides end-to-end support—from setting up fast and stable networks to maintaining computers, building functional websites, and offering ongoing technical assistance. He approaches every project with professionalism, attention to detail, and a strong commitment to quality.
+  <div class="hero-right">
+    <img src="2.jpg" class="floating icon1">
+    <img src="3.jpg" class="floating icon2">
+    <div class="image-wrapper">
+      <img src="1.jpg" alt="Profile">
+    </div>
+  </div>
+</section>
 
-His goal is simple: to offer practical, affordable, and high-value technology services that help clients stay productive, protected, and connected.</p>
+<section class="about" id="about">
+  <div class="about-container">
+
+    <div class="about-left">
+      <img src="1.jpg" alt="About Image">
+    </div>
+
+    <div class="about-right">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate frontend and blockchain developer focused on building
+        scalable, user-friendly digital experiences. I enjoy transforming complex
+        problems into elegant solutions using modern web technologies.
+      </p>
+
+      <div class="skills">
+        <div class="skill">
+          <span>HTML / CSS</span>
+          <div class="bar"><div class="progress html"></div></div>
         </div>
-        <div class="mission">
-            <div class="vision">
-                <h2>Vision</h2>
-                <p>His vision is to build a trusted technology service brand that delivers secure, modern, and affordable digital solutions to individuals and businesses, enabling them to operate efficiently in a fast-evolving technological environment.</p>
-            </div>
-            <div class="boxes">
-            <div class="box1">
-                <h2>Goals</h2>
-                <ul>
-                    <li>To provide high-quality IT services that improve client productivity and digital security.</li>
-                    <li>To expand Hive Tech Solutions into a recognized provider of network installation, computer maintenance, and web solutions.</li>
-                    <li>To establish long-term client relationships based on reliability, professionalism, and consistent results.</li>
-                    <li>To continuously upgrade his skills and adopt new technologies that enhance service delivery.</li>
-                    <li>To contribute to digital transformation by offering accessible and innovative technology solutions.</li>
-                    <li>Deliver fast and efficient network installation services that ensure stable connectivity for clients.</li>
-                </ul>
-            </div>
-            <div class="box2">
-                <h2>Objectives</h2>
-                <ul>
-                    <li>Offer comprehensive computer maintenance and troubleshooting to minimize downtime and system failures.</li>
-                    <li>Build functional, responsive, and user-friendly websites for businesses and individuals.</li>
-                    <li>Maintain a high standard of customer satisfaction through timely communication and professional service.</li>
-                    <li>Expand service coverage and grow the client base through effective marketing and strong service reputation.</li>
-                </ul>
-            </div>
-            </div>
+
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="bar"><div class="progress js"></div></div>
         </div>
+
+        <div class="skill">
+          <span>React</span>
+          <div class="bar"><div class="progress react"></div></div>
         </div>
-    <footer>
-        <div id="contact">
-            <ul>
-                
-                <li><a href="https://wa.me/+256765068563?text=Hello!" target="_blank"><img src="email.png" alt=""></a></li>
-                <li><a href="mailto:timothyodongo263@gmail.com" target="_blank"><img src="whatsapp.jpg" alt=""></a></li>
-                <li><a href="https://x.com/OdongoTimo263" target="_blank"><img src="x.png" alt=""></a></li>
-        </div>
-        <p>Tel: +256765068563<br>© 2026 Odongo Timothy. All rights reserved.</p>
-    </footer>
+      </div>
+
+      <a href="#" class="primary-btn">Download CV</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="experience" id="experience">
+  <div class="section-title">
+    <h2>Experience</h2>
+    <p>My professional journey</p>
+  </div>
+
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <span class="date">2025 – Present</span>
+        <h3>Frontend Developer</h3>
+        <h4>Kakebe Technologies</h4>
+        <p>
+          Developed responsive web applications using modern JavaScript frameworks.
+          Improved UI performance and implemented reusable component architecture.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+<script src="script.js"></script>
 </body>
 </html>
